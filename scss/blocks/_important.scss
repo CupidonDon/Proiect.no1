@@ -1,0 +1,27 @@
+.important {
+  margin-bottom: 150px;
+
+  .important__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .important__description {
+    margin: 0 auto 50px;
+    text-align: left;
+    max-width: 580px;
+  }
+
+  .important__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+  }
+  .important__content {
+    min-width: 270px;
+  }
+
+  .content__image {
+    margin-bottom: 20px;
+  }
+}

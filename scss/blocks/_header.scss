@@ -1,0 +1,29 @@
+.header {
+  background-image: url(../img/header/slide-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__contact {
+  background-image: none;
+  background-color: $black;
+}
+.header__inner {
+  padding: 40px 0 45px 0;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  .menu__list {
+    display: flex;
+    gap: 35px;
+
+    flex-wrap: wrap;
+  }
+}
+
+.contact__link,
+.new_cars-link {
+  color: $blue;
+}

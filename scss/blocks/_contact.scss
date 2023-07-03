@@ -1,0 +1,103 @@
+.contact {
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+  .contact__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact__subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .contact__form {
+    max-width: 580px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .name {
+    width: 270px;
+    font-size: 16px;
+    font-family: $font-main;
+    padding: 18px 20px;
+    color: $black;
+    margin-bottom: 50px;
+
+    border: 1px solid $blue;
+
+    &::placeholder {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+
+      line-height: 1;
+      color: #000;
+      opacity: 0.5;
+    }
+  }
+  .email {
+    width: 270px;
+    font-size: 16px;
+    font-family: $font-main;
+    padding: 18px 20px;
+    color: $black;
+    margin-bottom: 50px;
+
+    border: 1px solid $blue;
+
+    &::placeholder {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+
+      line-height: 1;
+      color: #000;
+      opacity: 0.5;
+    }
+  }
+
+  .your-text {
+    width: 100%;
+    font-size: 16px;
+    font-family: $font-main;
+    padding-top: 28px;
+    padding-left: 20px;
+    color: $black;
+    resize: none;
+    height: 290px;
+    margin-bottom: 50px;
+
+    border: 1px solid $blue;
+
+    &::placeholder {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+
+      line-height: 1;
+      color: #000;
+      opacity: 0.5;
+    }
+  }
+
+  .form__btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $font-main;
+    color: $white;
+
+    background-color: $black;
+    padding: 13px 61px;
+    border: 0;
+
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+}

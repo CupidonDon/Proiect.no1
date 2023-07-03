@@ -1,0 +1,52 @@
+.work {
+  margin-bottom: 150px;
+}
+
+.container__work {
+  margin: 0 auto;
+  max-width: 600px;
+  height: auto;
+
+  .work__title {
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+  .work__text {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .work__title-rental {
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .rental__table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 140px;
+    row-gap: 40px;
+    justify-items: center;
+
+    margin-bottom: 70px;
+
+    .table__decoration {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      background: $blue;
+      border-radius: 50%;
+      text-align: center;
+
+      cursor: default;
+
+      font-size: 48px;
+      font-weight: 700;
+      color: $white;
+    }
+
+    .table__text {
+      width: 270px;
+    }
+  }
+}

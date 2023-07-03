@@ -1,0 +1,201 @@
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 24px;
+    padding: 18px 74px;
+  }
+
+  .leasing {
+    padding-top: 55px;
+    padding-bottom: 250px;
+  }
+
+  .lease {
+    padding-top: 70px;
+    .lease__bon {
+      max-width: 180px;
+    }
+    .lease__bonus {
+      margin-bottom: 70px;
+    }
+  }
+  .work {
+    margin-bottom: 70px;
+    .rental__table {
+      gap: 40px 100px;
+    }
+  }
+  .welcome {
+    margin-bottom: 70px;
+    .welcome__video {
+      iframe {
+        width: 70%;
+        height: 300px;
+      }
+    }
+  }
+  .important {
+    margin-bottom: 70px;
+    .important__container {
+      grid-template-columns: repeat(auto-fill, 350px);
+      gap: 40px 80px;
+    }
+    .content__image {
+      width: 350px;
+    }
+  }
+
+  .footer {
+    .bio__list--link {
+      font-size: 14px;
+    }
+    .footer__privacy {
+      padding: 0 30px;
+      .privacy__list {
+        gap: 20px 40px;
+        .privacy__item-link {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// !=================================================
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 18px;
+    padding: 13px 56px;
+  }
+
+  .header {
+    .header__inner {
+      padding: 20px 0 25px 0;
+    }
+    .menu__list {
+      gap: 10px 25px;
+    }
+  }
+
+  .lease {
+    padding-top: 50px;
+    .lease__bonus {
+      margin-bottom: 50px;
+      gap: 40px 100px;
+    }
+    .lease__bon {
+      text-align: center;
+      max-width: 270px;
+      img {
+        width: 80px;
+      }
+    }
+  }
+
+  .work {
+    .rental__table {
+      grid-template-columns: 1fr 2fr;
+      column-gap: 20px;
+      .table__text {
+        width: auto;
+        max-width: 400px;
+      }
+    }
+  }
+
+  .footer {
+    .bio__text {
+      margin-bottom: 20px;
+    }
+    .bio__list-item {
+      margin-bottom: 10px;
+    }
+    .footer__description {
+      padding: 0 30px;
+    }
+  }
+}
+// !=================================================
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    .header__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      gap: 20px 20px;
+    }
+    .logo__img {
+      width: 50px;
+    }
+    .menu__list {
+      justify-content: center;
+    }
+  }
+  .work {
+    .container__work {
+      width: 90%;
+    }
+    .rental__table {
+      grid-template-columns: repeat(1, 1fr);
+      .table__decoration {
+        display: none;
+      }
+    }
+  }
+  .important {
+    .important__container {
+      text-align: center;
+      justify-items: center;
+    }
+    .important__content {
+      max-width: 200px;
+      min-width: 150px;
+    }
+    .content__image {
+      width: 200px;
+    }
+  }
+  .lease__bon--img {
+    display: none;
+  }
+  .footer .footer__list {
+    display: none;
+  }
+  .welcome {
+    .welcome__video {
+      iframe {
+        height: 100px;
+      }
+    }
+  }
+}

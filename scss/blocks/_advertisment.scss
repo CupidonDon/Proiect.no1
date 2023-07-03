@@ -1,0 +1,53 @@
+.advertisment {
+  margin-bottom: 150px;
+  .advertisment__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 70px;
+  }
+
+  .advertisment__item {
+    margin: 0 auto;
+    max-width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .item__img {
+    margin-bottom: 30px;
+  }
+
+  .item__btn-more {
+    font-size: 16px;
+    font-family: $font-main;
+    color: $white;
+    background-color: $black;
+    padding: 4px 10px;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+
+  .advertisment__btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $font-main;
+    color: $white;
+
+    background-color: $black;
+    padding: 13px 61px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+}

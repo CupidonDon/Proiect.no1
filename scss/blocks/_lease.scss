@@ -1,0 +1,31 @@
+.lease {
+  padding-top: 150px;
+
+  .lease__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .lease__bonus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+    margin-bottom: 150px;
+  }
+  .lease__bon {
+    text-align: center;
+    max-width: 270px;
+  }
+
+  .lease__bon--img {
+    margin-bottom: 30px;
+  }
+  .lease__bon--title {
+    margin-bottom: 30px;
+  }
+  .lease__bot--text {
+    text-align: left;
+  }
+}

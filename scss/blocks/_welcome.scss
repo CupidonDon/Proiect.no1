@@ -1,0 +1,21 @@
+.welcome {
+  margin-bottom: 150px;
+
+  .welcome__title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .welcome__subtitle {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .welcome__video {
+    text-align: center;
+    iframe {
+      width: 90%;
+      height: 669px;
+    }
+  }
+}

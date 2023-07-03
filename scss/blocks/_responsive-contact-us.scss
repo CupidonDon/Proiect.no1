@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+  .contact {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    .contact__form {
+      justify-content: center;
+    }
+    .name,
+    .email {
+      width: 80%;
+      margin-bottom: 20px;
+      font-size: 12px;
+      padding: 10px 13px;
+    }
+    .your-text {
+      width: 80%;
+      height: 200px;
+      font-size: 12px;
+      padding: 15px 18px;
+    }
+  }
+}
