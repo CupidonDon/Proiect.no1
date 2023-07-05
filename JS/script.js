@@ -1,5 +1,7 @@
 const buttons = document.querySelectorAll(".chose__section");
 const carCells = document.querySelectorAll(".car__cell");
+const burger = document.querySelector(".burger");
+const menu = document.querySelector(".menu");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -16,4 +18,9 @@ buttons.forEach((button) => {
       element.classList.add("enable");
     });
   });
+});
+
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  menu.classList.toggle("open");
 });
